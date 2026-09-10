@@ -12,6 +12,6 @@ export class PagamentoBoleto extends Pagamento{
     }
 
     processarPag(){
-        console.log(`Boleto gerado comm sucesso ${this.#codigoBarra}`)
+        console.log(`Boleto gerado comm sucesso ${this.#codigoBarra}`);
     }
 }

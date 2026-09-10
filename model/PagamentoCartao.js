@@ -17,6 +17,6 @@ export class PagamentoCartao extends Pagamento {
     }
 
     processarPag(){
-        console.log(`Enviar dados do cartão para operadora ${this.#ultimosNum} e as parcelas ${this.#parcelas}`)
+        console.log(`Enviar dados do cartão para operadora ${this.#ultimosNum} e as parcelas ${this.#parcelas}`);
     }
 }
